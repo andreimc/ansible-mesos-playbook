@@ -1,7 +1,0 @@
-[mesos_primaries]
-10.10.2.229 consul_bootstrap=true
-10.10.3.253
-10.10.2.78
-[mesos_workers]
-10.10.3.236
-10.10.2.41

@@ -3,4 +3,6 @@ librarian_roles
 ansible.cfg
 hosts*
 *.bak
+nodes
+provision_script.sh
 
