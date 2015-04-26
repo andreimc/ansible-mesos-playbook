@@ -1,23 +1,37 @@
 GIT
-  remote: https://github.com/AnsibleShipyard/ansible-zookeeper
+  remote: https://github.com/AnsibleShipyard/ansible-docker
   ref: master
-  sha: 6b8d2c54593c1c85870f124993b2b076c7215b0b
+  sha: bcbb13554b0d4de40a0fcadb2dc5d55cffa0fc54
+  specs:
+    ansible-docker (0.0.0)
+
+GIT
+  remote: https://github.com/AnsibleShipyard/ansible-marathon
+  ref: master
+  sha: 432d1cd802543447439e9e416997af3761a4dd1e
+  specs:
+    ansible-marathon (0.0.0)
+
+GIT
+  remote: https://github.com/AnsibleShipyard/ansible-mesos
+  ref: master
+  sha: 573e3449867d9e962aa4c88a61ed5950b5e74275
+  specs:
+    ansible-mesos (0.0.0)
+
+GIT
+  remote: https://github.com/andreimc/ansible-zookeeper
+  ref: master
+  sha: 67446bbf296dee72ffc5244624b0c649be55427b
   specs:
     ansible-zookeeper (0.0.0)
 
 GIT
-  remote: https://github.com/mhamrah/ansible-consul
+  remote: https://github.com/jivesoftware/ansible-consul
   ref: master
-  sha: 38397d7103f659e9f3944da816d6b8a3b0e26018
+  sha: dd5c3c48d269759b7596dd7d797a0c5730fdb3b0
   specs:
     ansible-consul (0.0.0)
-
-GIT
-  remote: https://github.com/mhamrah/ansible-docker
-  ref: master
-  sha: 5f6cea50da4a3fb708a1fa06a7bb78c3753a2a4d
-  specs:
-    ansible-docker (0.0.0)
 
 GIT
   remote: https://github.com/mhamrah/ansible-java8
@@ -27,18 +41,25 @@ GIT
     ansible-java8 (0.0.0)
 
 GIT
-  remote: https://github.com/mhamrah/ansible-marathon
+  remote: https://github.com/weareinteractive/ansible-htpasswd
   ref: master
-  sha: e1d8781e4d5f55db7aee91e8cdd39a5cf2813f36
+  sha: 25774532236542b74a8e747d69ed7d54114e3964
   specs:
-    ansible-marathon (0.0.0)
+    franklinkim.htpasswd (0.0.0)
 
 GIT
-  remote: https://github.com/mhamrah/ansible-mesos
+  remote: https://github.com/weareinteractive/ansible-nginx
   ref: master
-  sha: 1717eefbdda66f78d41b0aa2fc77facafb2a2b1c
+  sha: c24a6edf0e1091d73b65a4eb50f0ad5d740d3c19
   specs:
-    ansible-mesos (0.0.0)
+    franklinkim.nginx (0.0.0)
+
+GIT
+  remote: https://github.com/weareinteractive/ansible-openssl
+  ref: master
+  sha: 93ddc06fbb4fc6f1b0030cb4144e95d013bbcfa6
+  specs:
+    franklinkim.openssl (0.0.0)
 
 DEPENDENCIES
   ansible-consul (>= 0)
@@ -47,4 +68,7 @@ DEPENDENCIES
   ansible-marathon (>= 0)
   ansible-mesos (>= 0)
   ansible-zookeeper (>= 0)
+  franklinkim.htpasswd (>= 0)
+  franklinkim.nginx (>= 0)
+  franklinkim.openssl (>= 0)
 
